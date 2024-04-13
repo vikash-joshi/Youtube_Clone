@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtbe Clone</title>
+    <link href="index2.css" rel="stylesheet" />
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+
+<body>
+    <header class="headers">
+        <div class="header">
+            <div class="logo left">
+                <img src="https://www.freecodecamp.org/news/content/images/2022/01/yt-logo.png">
+            </div>
+
+            <div class="search_center">
+                <form action="">
+                    <input type="text" placeholder="Search" style="    border: 1px solid #f2f2f2;
+                margin-right: -4px;
+            " />
+                    <button style="    background: #f2f2f2;
+                outline: none;
+                border: none;
+                padding: 10px;">Search</button>
+                </form>
+                <span class="material-symbols-outlined" style="margin-left: 13px;
+            padding: 7px;
+            background: #f2f2f2;">
+                    mic
+                </span>
+            </div>
+
+            <div class="icons right">
+                <span class=" hovereffect material-symbols-outlined" style="    color: #010101;
+            font-weight: lighter !important;
+            font-size: 30px !important;">
+                    video_call
+                </span>
+
+                <span class="hovereffect material-symbols-outlined" style="    color: #010101;
+                font-weight: lighter !important;
+                font-size: 30px !important;">
+                    notifications
+                </span>
+                <span class=" " style="    color: #010101;
+                    font-weight: lighter !important;
+                    font-size: 30px !important;">
+                    <img src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png"
+                        style="    height: 35px;" />
+                </span>
+            </div>
+        </div>
+      <!--  <div class="bottomtags">
+
+            <div class="category_list">All</div>
+            <div class="category_list">Source Code</div>
+            <div class="category_list">Music</div>
+            <div class="category_list">Web Development</div>
+            <div class="category_list">Aws</div>
+            <div class="category_list">Docker</div>
+            <div class="category_list">Comedy</div>
+            <div class="category_list">Thriller</div>
+            <div class="category_list">Live</div>
+            <div class="category_list">Gadgets</div>
+            <div class="category_list">UnBooxing</div>
+            <div class="category_list">Gaming</div>
+
+
+        </div>-->
+
+    </header>
+    <main>
+        <div class="side-bar">
+            <div class="nav">
+                <a class="nav-link active">
+                    <span class="material-symbols-outlined ml_15">
+                        home
+                    </span>
+                    <span class="ml_15">Home</span>
+                </a>
+                <a class="nav-link">
+                    <span class="material-symbols-outlined ml_15">
+                        local_fire_department
+                    </span>
+                    <span class="ml_15">Trending</span>
+                </a>
+                <a class="nav-link ">
+                    <span class="material-symbols-outlined ml_15">
+                        subscriptions
+                    </span>
+                    <span class="ml_15">Subscription</span>
+                </a>
+                <a class="nav-link ">
+                    <span class="material-symbols-outlined ml_15">
+                        library_add_check
+                    </span>
+                    <span class="ml_15">Library</span>
+                </a>
+                <a class="nav-link ">
+                    <span class="material-symbols-outlined ml_15">
+                        history
+                    </span>
+                    <span class="ml_15">History</span>
+                </a>
+                <a class="nav-link ">
+                    <span class="material-symbols-outlined ml_15">
+                        play_arrow
+                    </span>
+                    <span class="ml_15">Your Videos</span>
+                </a>
+                <a class="nav-link ">
+                    <span class="material-symbols-outlined ml_15">
+                        pace
+                    </span>
+                    <span class="ml_15">Watch Later</span>
+
+                </a>
+                <a class="nav-link ">
+                    <span class="material-symbols-outlined ml_15">
+                        thumb_up
+                    </span> <span class="ml_15">Liked Videos</span>
+
+                </a>
+
+            </div>
+        </div>
+        <div class="content">
+            <div class="category_items">
+                <div class="video_container">
+                    <div class="video">
+                        <img class="thumbnail" style="    width: 125px;
+                        height: 45%;" src="https://source.unsplash.com/random/200x200?sig=2" alt="Video Thumbnail">
+                    </div>
+                    <div class="detail_video">
+                        <div class="channelimg"> <img class="thumbnail1"
+                                src="https://png.pngtree.com/template/20210610/ourmid/pngtree-live-streaming-youtube-thumbnail-design-vector-illustration-image_534513.jpg"
+                                alt="Video Thumbnail"></div>
+                        <div class="videotext">
+                            <div id="videotitle" class="videotextschild" style="white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;"
+                                title="JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End Mastery!">
+                                JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End
+                                Mastery!</div>
+                            <div id="channel" class="videotextschild">HRMantra software Pvt. Ltd. <span style="
+                                font-size: 14px !important;
+                                font-weight: 400;
+                                color:#c1c1c1;
+                                border-radius: 102px;
+                                left: 3px;
+                                position: relative;
+                            " class="material-symbols-outlined">
+                                    check_circle
+                                </span></div>
+                            <div id="viewandposted" class="videotextschild">119 M <span style="     font-size: 5px;
+                                margin: 0px 2px 0px 2px;
+                                background: #c1c1c1;
+                                color: #c1c1c1;
+                                border-radius: 100px;" class="material-symbols-outlined">
+                                    radio_button_checked
+                                </span> 6 Months ago</div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="video_container">
+                    <div class="video">
+                        <img class="thumbnail" style="    width: 125px;
+                        height: 45%;" src="https://source.unsplash.com/random/200x200?sig=1" alt="Video Thumbnail">
+                    </div>
+                    <div class="detail_video">
+                        <div class="channelimg"> <img class="thumbnail1"
+                                src="https://png.pngtree.com/template/20210610/ourmid/pngtree-live-streaming-youtube-thumbnail-design-vector-illustration-image_534513.jpg"
+                                alt="Video Thumbnail"></div>
+                        <div class="videotext">
+                            <div id="videotitle" class="videotextschild" style="white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;"
+                                title="JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End Mastery!">
+                                JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End
+                                Mastery!</div>
+                            <div id="channel" class="videotextschild">HRMantra software Pvt. Ltd. <span style="
+                                font-size: 14px !important;
+                                font-weight: 400;
+                                color:#c1c1c1;
+                                border-radius: 102px;
+                                left: 3px;
+                                position: relative;
+                            " class="material-symbols-outlined">
+                                    check_circle
+                                </span></div>
+                            <div id="viewandposted" class="videotextschild">119 M <span style="     font-size: 5px;
+                                margin: 0px 2px 0px 2px;
+                                background: #c1c1c1;
+                                color: #c1c1c1;
+                                border-radius: 100px;" class="material-symbols-outlined">
+                                    radio_button_checked
+                                </span> 6 Months ago</div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="video_container">
+                    <div class="video">
+                        <img class="thumbnail" style="    width: 125px;
+                        height: 45%;" src="https://source.unsplash.com/random/200x200?sig=3" alt="Video Thumbnail">
+                    </div>
+                    <div class="detail_video">
+                        <div class="channelimg"> <img class="thumbnail1"
+                                src="https://png.pngtree.com/template/20210610/ourmid/pngtree-live-streaming-youtube-thumbnail-design-vector-illustration-image_534513.jpg"
+                                alt="Video Thumbnail"></div>
+                        <div class="videotext">
+                            <div id="videotitle" class="videotextschild" style="white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;"
+                                title="JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End Mastery!">
+                                JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End
+                                Mastery!</div>
+                            <div id="channel" class="videotextschild">HRMantra software Pvt. Ltd. <span style="
+                                font-size: 14px !important;
+                                font-weight: 400;
+                                color:#c1c1c1;
+                                border-radius: 102px;
+                                left: 3px;
+                                position: relative;
+                            " class="material-symbols-outlined">
+                                    check_circle
+                                </span></div>
+                            <div id="viewandposted" class="videotextschild">119 M <span style="     font-size: 5px;
+                                margin: 0px 2px 0px 2px;
+                                background: #c1c1c1;
+                                color: #c1c1c1;
+                                border-radius: 100px;" class="material-symbols-outlined">
+                                    radio_button_checked
+                                </span> 6 Months ago</div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="video_container">
+                    <div class="video">
+                        <img class="thumbnail" style="    width: 125px;
+                        height: 45%;" src="https://source.unsplash.com/random/200x200?sig=2" alt="Video Thumbnail">
+                    </div>
+                    <div class="detail_video">
+                        <div class="channelimg"> <img class="thumbnail1"
+                                src="https://png.pngtree.com/template/20210610/ourmid/pngtree-live-streaming-youtube-thumbnail-design-vector-illustration-image_534513.jpg"
+                                alt="Video Thumbnail"></div>
+                        <div class="videotext">
+                            <div id="videotitle" class="videotextschild" style="white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;"
+                                title="JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End Mastery!">
+                                JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End
+                                Mastery!</div>
+                            <div id="channel" class="videotextschild">HRMantra software Pvt. Ltd. <span style="
+                                font-size: 14px !important;
+                                font-weight: 400;
+                                color:#c1c1c1;
+                                border-radius: 102px;
+                                left: 3px;
+                                position: relative;
+                            " class="material-symbols-outlined">
+                                    check_circle
+                                </span></div>
+                            <div id="viewandposted" class="videotextschild">119 M <span style="     font-size: 5px;
+                                margin: 0px 2px 0px 2px;
+                                background: #c1c1c1;
+                                color: #c1c1c1;
+                                border-radius: 100px;" class="material-symbols-outlined">
+                                    radio_button_checked
+                                </span> 6 Months ago</div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="video_container">
+                    <div class="video">
+                        <img class="thumbnail" style="    width: 125px;
+                        height: 45%;" src="https://source.unsplash.com/random/200x200?sig=1" alt="Video Thumbnail">
+                    </div>
+                    <div class="detail_video">
+                        <div class="channelimg"> <img class="thumbnail1"
+                                src="https://png.pngtree.com/template/20210610/ourmid/pngtree-live-streaming-youtube-thumbnail-design-vector-illustration-image_534513.jpg"
+                                alt="Video Thumbnail"></div>
+                        <div class="videotext">
+                            <div id="videotitle" class="videotextschild" style="white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;"
+                                title="JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End Mastery!">
+                                JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End
+                                Mastery!</div>
+                            <div id="channel" class="videotextschild">HRMantra software Pvt. Ltd. <span style="
+                                font-size: 14px !important;
+                                font-weight: 400;
+                                color:#c1c1c1;
+                                border-radius: 102px;
+                                left: 3px;
+                                position: relative;
+                            " class="material-symbols-outlined">
+                                    check_circle
+                                </span></div>
+                            <div id="viewandposted" class="videotextschild">119 M <span style="     font-size: 5px;
+                                margin: 0px 2px 0px 2px;
+                                background: #c1c1c1;
+                                color: #c1c1c1;
+                                border-radius: 100px;" class="material-symbols-outlined">
+                                    radio_button_checked
+                                </span> 6 Months ago</div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="video_container">
+                    <div class="video">
+                        <img class="thumbnail" style="    width: 125px;
+                        height: 45%;" src="https://source.unsplash.com/random/200x200?sig=3" alt="Video Thumbnail">
+                    </div>
+                    <div class="detail_video">
+                        <div class="channelimg"> <img class="thumbnail1"
+                                src="https://png.pngtree.com/template/20210610/ourmid/pngtree-live-streaming-youtube-thumbnail-design-vector-illustration-image_534513.jpg"
+                                alt="Video Thumbnail"></div>
+                        <div class="videotext">
+                            <div id="videotitle" class="videotextschild" style="white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;"
+                                title="JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End Mastery!">
+                                JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End
+                                Mastery!</div>
+                            <div id="channel" class="videotextschild">HRMantra software Pvt. Ltd. <span style="
+                                font-size: 14px !important;
+                                font-weight: 400;
+                                color:#c1c1c1;
+                                border-radius: 102px;
+                                left: 3px;
+                                position: relative;
+                            " class="material-symbols-outlined">
+                                    check_circle
+                                </span></div>
+                            <div id="viewandposted" class="videotextschild">119 M <span style="     font-size: 5px;
+                                margin: 0px 2px 0px 2px;
+                                background: #c1c1c1;
+                                color: #c1c1c1;
+                                border-radius: 100px;" class="material-symbols-outlined">
+                                    radio_button_checked
+                                </span> 6 Months ago</div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="video_container">
+                    <div class="video">
+                        <img class="thumbnail" style="    width: 125px;
+                        height: 45%;" src="https://source.unsplash.com/random/200x200?sig=2" alt="Video Thumbnail">
+                    </div>
+                    <div class="detail_video">
+                        <div class="channelimg"> <img class="thumbnail1"
+                                src="https://png.pngtree.com/template/20210610/ourmid/pngtree-live-streaming-youtube-thumbnail-design-vector-illustration-image_534513.jpg"
+                                alt="Video Thumbnail"></div>
+                        <div class="videotext">
+                            <div id="videotitle" class="videotextschild" style="white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;"
+                                title="JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End Mastery!">
+                                JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End
+                                Mastery!</div>
+                            <div id="channel" class="videotextschild">HRMantra software Pvt. Ltd. <span style="
+                                font-size: 14px !important;
+                                font-weight: 400;
+                                color:#c1c1c1;
+                                border-radius: 102px;
+                                left: 3px;
+                                position: relative;
+                            " class="material-symbols-outlined">
+                                    check_circle
+                                </span></div>
+                            <div id="viewandposted" class="videotextschild">119 M <span style="     font-size: 5px;
+                                margin: 0px 2px 0px 2px;
+                                background: #c1c1c1;
+                                color: #c1c1c1;
+                                border-radius: 100px;" class="material-symbols-outlined">
+                                    radio_button_checked
+                                </span> 6 Months ago</div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="video_container">
+                    <div class="video">
+                        <img class="thumbnail" style="    width: 125px;
+                        height: 45%;" src="https://source.unsplash.com/random/200x200?sig=1" alt="Video Thumbnail">
+                    </div>
+                    <div class="detail_video">
+                        <div class="channelimg"> <img class="thumbnail1"
+                                src="https://png.pngtree.com/template/20210610/ourmid/pngtree-live-streaming-youtube-thumbnail-design-vector-illustration-image_534513.jpg"
+                                alt="Video Thumbnail"></div>
+                        <div class="videotext">
+                            <div id="videotitle" class="videotextschild" style="white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;"
+                                title="JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End Mastery!">
+                                JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End
+                                Mastery!</div>
+                            <div id="channel" class="videotextschild">HRMantra software Pvt. Ltd. <span style="
+                                font-size: 14px !important;
+                                font-weight: 400;
+                                color:#c1c1c1;
+                                border-radius: 102px;
+                                left: 3px;
+                                position: relative;
+                            " class="material-symbols-outlined">
+                                    check_circle
+                                </span></div>
+                            <div id="viewandposted" class="videotextschild">119 M <span style="     font-size: 5px;
+                                margin: 0px 2px 0px 2px;
+                                background: #c1c1c1;
+                                color: #c1c1c1;
+                                border-radius: 100px;" class="material-symbols-outlined">
+                                    radio_button_checked
+                                </span> 6 Months ago</div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="video_container">
+                    <div class="video">
+                        <img class="thumbnail" style="    width: 125px;
+                        height: 45%;" src="https://source.unsplash.com/random/200x200?sig=3" alt="Video Thumbnail">
+                    </div>
+                    <div class="detail_video">
+                        <div class="channelimg"> <img class="thumbnail1"
+                                src="https://png.pngtree.com/template/20210610/ourmid/pngtree-live-streaming-youtube-thumbnail-design-vector-illustration-image_534513.jpg"
+                                alt="Video Thumbnail"></div>
+                        <div class="videotext">
+                            <div id="videotitle" class="videotextschild" style="white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;"
+                                title="JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End Mastery!">
+                                JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End
+                                Mastery!</div>
+                            <div id="channel" class="videotextschild">HRMantra software Pvt. Ltd. <span style="
+                                font-size: 14px !important;
+                                font-weight: 400;
+                                color:#c1c1c1;
+                                border-radius: 102px;
+                                left: 3px;
+                                position: relative;
+                            " class="material-symbols-outlined">
+                                    check_circle
+                                </span></div>
+                            <div id="viewandposted" class="videotextschild">119 M <span style="     font-size: 5px;
+                                margin: 0px 2px 0px 2px;
+                                background: #c1c1c1;
+                                color: #c1c1c1;
+                                border-radius: 100px;" class="material-symbols-outlined">
+                                    radio_button_checked
+                                </span> 6 Months ago</div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="video_container">
+                    <div class="video">
+                        <img class="thumbnail" style="    width: 125px;
+                        height: 45%;" src="https://source.unsplash.com/random/200x200?sig=4" alt="Video Thumbnail">
+                    </div>
+                    <div class="detail_video">
+                        <div class="channelimg"> <img class="thumbnail1"
+                                src="https://png.pngtree.com/template/20210610/ourmid/pngtree-live-streaming-youtube-thumbnail-design-vector-illustration-image_534513.jpg"
+                                alt="Video Thumbnail"></div>
+                        <div class="videotext">
+                            <div id="videotitle" class="videotextschild" style="white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;"
+                                title="JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End Mastery!">
+                                JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End
+                                Mastery!</div>
+                            <div id="channel" class="videotextschild">HRMantra software Pvt. Ltd. <span style="
+                                font-size: 14px !important;
+                                font-weight: 400;
+                                color:#c1c1c1;
+                                border-radius: 102px;
+                                left: 3px;
+                                position: relative;
+                            " class="material-symbols-outlined">
+                                    check_circle
+                                </span></div>
+                            <div id="viewandposted" class="videotextschild">119 M <span style="     font-size: 5px;
+                                margin: 0px 2px 0px 2px;
+                                background: #c1c1c1;
+                                color: #c1c1c1;
+                                border-radius: 100px;" class="material-symbols-outlined">
+                                    radio_button_checked
+                                </span> 6 Months ago</div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="video_container">
+                    <div class="video">
+                        <img class="thumbnail" style="    width: 125px;
+                        height: 45%;" src="https://source.unsplash.com/random/200x200?sig=5" alt="Video Thumbnail">
+                    </div>
+                    <div class="detail_video">
+                        <div class="channelimg"> <img class="thumbnail1"
+                                src="https://png.pngtree.com/template/20210610/ourmid/pngtree-live-streaming-youtube-thumbnail-design-vector-illustration-image_534513.jpg"
+                                alt="Video Thumbnail"></div>
+                        <div class="videotext">
+                            <div id="videotitle" class="videotextschild" style="white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;"
+                                title="JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End Mastery!">
+                                JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End
+                                Mastery!</div>
+                            <div id="channel" class="videotextschild">HRMantra software Pvt. Ltd. <span style="
+                                font-size: 14px !important;
+                                font-weight: 400;
+                                color:#c1c1c1;
+                                border-radius: 102px;
+                                left: 3px;
+                                position: relative;
+                            " class="material-symbols-outlined">
+                                    check_circle
+                                </span></div>
+                            <div id="viewandposted" class="videotextschild">119 M <span style="     font-size: 5px;
+                                margin: 0px 2px 0px 2px;
+                                background: #c1c1c1;
+                                color: #c1c1c1;
+                                border-radius: 100px;" class="material-symbols-outlined">
+                                    radio_button_checked
+                                </span> 6 Months ago</div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="video_container">
+                    <div class="video">
+                        <img class="thumbnail" style="    width: 125px;
+                        height: 45%;" src="https://source.unsplash.com/random/200x200?sig=6" alt="Video Thumbnail">
+                    </div>
+                    <div class="detail_video">
+                        <div class="channelimg"> <img class="thumbnail1"
+                                src="https://png.pngtree.com/template/20210610/ourmid/pngtree-live-streaming-youtube-thumbnail-design-vector-illustration-image_534513.jpg"
+                                alt="Video Thumbnail"></div>
+                        <div class="videotext">
+                            <div id="videotitle" class="videotextschild" style="white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;"
+                                title="JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End Mastery!">
+                                JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End
+                                Mastery!</div>
+                            <div id="channel" class="videotextschild">HRMantra software Pvt. Ltd. <span style="
+                                font-size: 14px !important;
+                                font-weight: 400;
+                                color:#c1c1c1;
+                                border-radius: 102px;
+                                left: 3px;
+                                position: relative;
+                            " class="material-symbols-outlined">
+                                    check_circle
+                                </span></div>
+                            <div id="viewandposted" class="videotextschild">119 M <span style="     font-size: 5px;
+                                margin: 0px 2px 0px 2px;
+                                background: #c1c1c1;
+                                color: #c1c1c1;
+                                border-radius: 100px;" class="material-symbols-outlined">
+                                    radio_button_checked
+                                </span> 6 Months ago</div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="shorts">
+                <div class="shortsHeading"><img style="    height: 20px;
+                    width: 17px;
+                    margin-right: 4px;"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0PEtCt5X-rJAG3Jc4yb06gd7IipAv-fCCczzDu5xtBg&s" />
+                    Shorts</div>
+                <div class="shortsContent">
+                    <div class="video_container">
+                        <div class="video">
+                            <img class="thumbnailshorts" style="     width: 143px;
+                            height: 240PX;" src="https://source.unsplash.com/random/200x200?sig=12"
+                                alt="Video Thumbnail">
+                        </div>
+                        <div class="detail_video">
+                            <span class="profile"><img src="images/youtube-shorts-logo-15253.png" height="10px"
+                                    style="border-radius: 100px;" /></span>
+                            <span class="title">My First Video</span>
+                        </div>
+                        <div class="chanelname">
+                            Vikash Coding School
+                        </div>
+                        <div class="view_postedDays">
+                            119 M . 6 Months ago
+                        </div>
+                    </div>
+                    <div class="video_container">
+                        <div class="video">
+                            <img class="thumbnailshorts" style="     width: 143px;
+                            height: 240PX;" src="https://source.unsplash.com/random/200x200?sig=13"
+                                alt="Video Thumbnail">
+                        </div>
+                        <div class="detail_video">
+                            <span class="profile"><img src="images/youtube-shorts-logo-15253.png" height="10px"
+                                    style="border-radius: 100px;" /></span>
+                            <span class="title">My First Video</span>
+                        </div>
+                        <div class="chanelname">
+                            Vikash Coding School
+                        </div>
+                        <div class="view_postedDays">
+                            119 M . 6 Months ago
+                        </div>
+                    </div>
+                    <div class="video_container">
+                        <div class="video">
+                            <img class="thumbnailshorts" style="     width: 143px;
+                            height: 240PX;" src="https://source.unsplash.com/random/200x200?sig=14"
+                                alt="Video Thumbnail">
+                        </div>
+                        <div class="detail_video">
+                            <span class="profile"><img src="images/youtube-shorts-logo-15253.png" height="10px"
+                                    style="border-radius: 100px;" /></span>
+                            <span class="title">My First Video</span>
+                        </div>
+                        <div class="chanelname">
+                            Vikash Coding School
+                        </div>
+                        <div class="view_postedDays">
+                            119 M . 6 Months ago
+                        </div>
+                    </div>
+                    <div class="video_container">
+                        <div class="video">
+                            <img class="thumbnailshorts" style="     width: 143px;
+                            height: 240PX;" src="https://source.unsplash.com/random/200x200?sig=15"
+                                alt="Video Thumbnail">
+                        </div>
+                        <div class="detail_video">
+                            <span class="profile"><img src="images/youtube-shorts-logo-15253.png" height="10px"
+                                    style="border-radius: 100px;" /></span>
+                            <span class="title">My First Video</span>
+                        </div>
+                        <div class="chanelname">
+                            Vikash Coding School
+                        </div>
+                        <div class="view_postedDays">
+                            119 M . 6 Months ago
+                        </div>
+                    </div>
+                    <div class="video_container">
+                        <div class="video">
+                            <img class="thumbnailshorts" style="     width: 143px;
+                            height: 240PX;" src="https://source.unsplash.com/random/200x200?sig=16"
+                                alt="Video Thumbnail">
+                        </div>
+                        <div class="detail_video">
+                            <span class="profile"><img src="images/youtube-shorts-logo-15253.png" height="10px"
+                                    style="border-radius: 100px;" /></span>
+                            <span class="title">My First Video</span>
+                        </div>
+                        <div class="chanelname">
+                            Vikash Coding School
+                        </div>
+                        <div class="view_postedDays">
+                            119 M . 6 Months ago
+                        </div>
+                    </div>
+                    <div class="video_container">
+                        <div class="video">
+                            <img class="thumbnailshorts" style="     width: 143px;
+                            height: 240PX;" src="https://source.unsplash.com/random/200x200?sig=17"
+                                alt="Video Thumbnail">
+                        </div>
+                        <div class="detail_video">
+                            <span class="profile"><img src="images/youtube-shorts-logo-15253.png" height="10px"
+                                    style="border-radius: 100px;" /></span>
+                            <span class="title">My First Video</span>
+                        </div>
+                        <div class="chanelname">
+                            Vikash Coding School
+                        </div>
+                        <div class="view_postedDays">
+                            119 M . 6 Months ago
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="category_items">
+                <div class="video_container">
+                    <div class="video">
+                        <img class="thumbnail" style="    width: 125px;
+                        height: 45%;" src="https://source.unsplash.com/random/200x200?sig=2" alt="Video Thumbnail">
+                    </div>
+                    <div class="detail_video">
+                        <div class="channelimg"> <img class="thumbnail1"
+                                src="https://png.pngtree.com/template/20210610/ourmid/pngtree-live-streaming-youtube-thumbnail-design-vector-illustration-image_534513.jpg"
+                                alt="Video Thumbnail"></div>
+                        <div class="videotext">
+                            <div id="videotitle" class="videotextschild" style="white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;"
+                                title="JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End Mastery!">
+                                JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End
+                                Mastery!</div>
+                            <div id="channel" class="videotextschild">HRMantra software Pvt. Ltd. <span style="
+                                font-size: 14px !important;
+                                font-weight: 400;
+                                color:#c1c1c1;
+                                border-radius: 102px;
+                                left: 3px;
+                                position: relative;
+                            " class="material-symbols-outlined">
+                                    check_circle
+                                </span></div>
+                            <div id="viewandposted" class="videotextschild">119 M <span style="     font-size: 5px;
+                                margin: 0px 2px 0px 2px;
+                                background: #c1c1c1;
+                                color: #c1c1c1;
+                                border-radius: 100px;" class="material-symbols-outlined">
+                                    radio_button_checked
+                                </span> 6 Months ago</div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="video_container">
+                    <div class="video">
+                        <img class="thumbnail" style="    width: 125px;
+                        height: 45%;" src="https://source.unsplash.com/random/200x200?sig=1" alt="Video Thumbnail">
+                    </div>
+                    <div class="detail_video">
+                        <div class="channelimg"> <img class="thumbnail1"
+                                src="https://png.pngtree.com/template/20210610/ourmid/pngtree-live-streaming-youtube-thumbnail-design-vector-illustration-image_534513.jpg"
+                                alt="Video Thumbnail"></div>
+                        <div class="videotext">
+                            <div id="videotitle" class="videotextschild" style="white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;"
+                                title="JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End Mastery!">
+                                JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End
+                                Mastery!</div>
+                            <div id="channel" class="videotextschild">HRMantra software Pvt. Ltd. <span style="
+                                font-size: 14px !important;
+                                font-weight: 400;
+                                color:#c1c1c1;
+                                border-radius: 102px;
+                                left: 3px;
+                                position: relative;
+                            " class="material-symbols-outlined">
+                                    check_circle
+                                </span></div>
+                            <div id="viewandposted" class="videotextschild">119 M <span style="     font-size: 5px;
+                                margin: 0px 2px 0px 2px;
+                                background: #c1c1c1;
+                                color: #c1c1c1;
+                                border-radius: 100px;" class="material-symbols-outlined">
+                                    radio_button_checked
+                                </span> 6 Months ago</div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="video_container">
+                    <div class="video">
+                        <img class="thumbnail" style="    width: 125px;
+                        height: 45%;" src="https://source.unsplash.com/random/200x200?sig=3" alt="Video Thumbnail">
+                    </div>
+                    <div class="detail_video">
+                        <div class="channelimg"> <img class="thumbnail1"
+                                src="https://png.pngtree.com/template/20210610/ourmid/pngtree-live-streaming-youtube-thumbnail-design-vector-illustration-image_534513.jpg"
+                                alt="Video Thumbnail"></div>
+                        <div class="videotext">
+                            <div id="videotitle" class="videotextschild" style="white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;"
+                                title="JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End Mastery!">
+                                JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End
+                                Mastery!</div>
+                            <div id="channel" class="videotextschild">HRMantra software Pvt. Ltd. <span style="
+                                font-size: 14px !important;
+                                font-weight: 400;
+                                color:#c1c1c1;
+                                border-radius: 102px;
+                                left: 3px;
+                                position: relative;
+                            " class="material-symbols-outlined">
+                                    check_circle
+                                </span></div>
+                            <div id="viewandposted" class="videotextschild">119 M <span style="     font-size: 5px;
+                                margin: 0px 2px 0px 2px;
+                                background: #c1c1c1;
+                                color: #c1c1c1;
+                                border-radius: 100px;" class="material-symbols-outlined">
+                                    radio_button_checked
+                                </span> 6 Months ago</div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="video_container">
+                    <div class="video">
+                        <img class="thumbnail" style="    width: 125px;
+                        height: 45%;" src="https://source.unsplash.com/random/200x200?sig=4" alt="Video Thumbnail">
+                    </div>
+                    <div class="detail_video">
+                        <div class="channelimg"> <img class="thumbnail1"
+                                src="https://png.pngtree.com/template/20210610/ourmid/pngtree-live-streaming-youtube-thumbnail-design-vector-illustration-image_534513.jpg"
+                                alt="Video Thumbnail"></div>
+                        <div class="videotext">
+                            <div id="videotitle" class="videotextschild" style="white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;"
+                                title="JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End Mastery!">
+                                JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End
+                                Mastery!</div>
+                            <div id="channel" class="videotextschild">HRMantra software Pvt. Ltd. <span style="
+                                font-size: 14px !important;
+                                font-weight: 400;
+                                color:#c1c1c1;
+                                border-radius: 102px;
+                                left: 3px;
+                                position: relative;
+                            " class="material-symbols-outlined">
+                                    check_circle
+                                </span></div>
+                            <div id="viewandposted" class="videotextschild">119 M <span style="     font-size: 5px;
+                                margin: 0px 2px 0px 2px;
+                                background: #c1c1c1;
+                                color: #c1c1c1;
+                                border-radius: 100px;" class="material-symbols-outlined">
+                                    radio_button_checked
+                                </span> 6 Months ago</div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="video_container">
+                    <div class="video">
+                        <img class="thumbnail" style="    width: 125px;
+                        height: 45%;" src="https://source.unsplash.com/random/200x200?sig=5" alt="Video Thumbnail">
+                    </div>
+                    <div class="detail_video">
+                        <div class="channelimg"> <img class="thumbnail1"
+                                src="https://png.pngtree.com/template/20210610/ourmid/pngtree-live-streaming-youtube-thumbnail-design-vector-illustration-image_534513.jpg"
+                                alt="Video Thumbnail"></div>
+                        <div class="videotext">
+                            <div id="videotitle" class="videotextschild" style="white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;"
+                                title="JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End Mastery!">
+                                JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End
+                                Mastery!</div>
+                            <div id="channel" class="videotextschild">HRMantra software Pvt. Ltd. <span style="
+                                font-size: 14px !important;
+                                font-weight: 400;
+                                color:#c1c1c1;
+                                border-radius: 102px;
+                                left: 3px;
+                                position: relative;
+                            " class="material-symbols-outlined">
+                                    check_circle
+                                </span></div>
+                            <div id="viewandposted" class="videotextschild">119 M <span style="     font-size: 5px;
+                                margin: 0px 2px 0px 2px;
+                                background: #c1c1c1;
+                                color: #c1c1c1;
+                                border-radius: 100px;" class="material-symbols-outlined">
+                                    radio_button_checked
+                                </span> 6 Months ago</div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="video_container">
+                    <div class="video">
+                        <img class="thumbnail" style="    width: 125px;
+                        height: 45%;" src="https://source.unsplash.com/random/200x200?sig=6" alt="Video Thumbnail">
+                    </div>
+                    <div class="detail_video">
+                        <div class="channelimg"> <img class="thumbnail1"
+                                src="https://png.pngtree.com/template/20210610/ourmid/pngtree-live-streaming-youtube-thumbnail-design-vector-illustration-image_534513.jpg"
+                                alt="Video Thumbnail"></div>
+                        <div class="videotext">
+                            <div id="videotitle" class="videotextschild" style="white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;"
+                                title="JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End Mastery!">
+                                JavaScript Advance Crash Course: Level Up Your Coding Skills! Accelerate Your Front-End
+                                Mastery!</div>
+                            <div id="channel" class="videotextschild">HRMantra software Pvt. Ltd. <span style="
+                                font-size: 14px !important;
+                                font-weight: 400;
+                                color:#c1c1c1;
+                                border-radius: 102px;
+                                left: 3px;
+                                position: relative;
+                            " class="material-symbols-outlined">
+                                    check_circle
+                                </span></div>
+                            <div id="viewandposted" class="videotextschild">119 M <span style="     font-size: 5px;
+                                margin: 0px 2px 0px 2px;
+                                background: #c1c1c1;
+                                color: #c1c1c1;
+                                border-radius: 100px;" class="material-symbols-outlined">
+                                    radio_button_checked
+                                </span> 6 Months ago</div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="shorts">
+                <div class="shortsHeading"><img style="    height: 20px;
+                    width: 17px;
+                    margin-right: 4px;"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0PEtCt5X-rJAG3Jc4yb06gd7IipAv-fCCczzDu5xtBg&s" />
+                    Shorts</div>
+                <div class="shortsContent">
+                    <div class="video_container">
+                        <div class="video">
+                            <img class="thumbnailshorts" style="     width: 143px;
+                            height: 240PX;" src="https://source.unsplash.com/random/200x200?sig=12"
+                                alt="Video Thumbnail">
+                        </div>
+                        <div class="detail_video">
+                            <span class="profile"><img src="images/youtube-shorts-logo-15253.png" height="10px"
+                                    style="border-radius: 100px;" /></span>
+                            <span class="title">My First Video</span>
+                        </div>
+                        <div class="chanelname">
+                            Vikash Coding School
+                        </div>
+                        <div class="view_postedDays">
+                            119 M . 6 Months ago
+                        </div>
+                    </div>
+                    <div class="video_container">
+                        <div class="video">
+                            <img class="thumbnailshorts" style="     width: 143px;
+                            height: 240PX;" src="https://source.unsplash.com/random/200x200?sig=13"
+                                alt="Video Thumbnail">
+                        </div>
+                        <div class="detail_video">
+                            <span class="profile"><img src="images/youtube-shorts-logo-15253.png" height="10px"
+                                    style="border-radius: 100px;" /></span>
+                            <span class="title">My First Video</span>
+                        </div>
+                        <div class="chanelname">
+                            Vikash Coding School
+                        </div>
+                        <div class="view_postedDays">
+                            119 M . 6 Months ago
+                        </div>
+                    </div>
+                    <div class="video_container">
+                        <div class="video">
+                            <img class="thumbnailshorts" style="     width: 143px;
+                            height: 240PX;" src="https://source.unsplash.com/random/200x200?sig=14"
+                                alt="Video Thumbnail">
+                        </div>
+                        <div class="detail_video">
+                            <span class="profile"><img src="images/youtube-shorts-logo-15253.png" height="10px"
+                                    style="border-radius: 100px;" /></span>
+                            <span class="title">My First Video</span>
+                        </div>
+                        <div class="chanelname">
+                            Vikash Coding School
+                        </div>
+                        <div class="view_postedDays">
+                            119 M . 6 Months ago
+                        </div>
+                    </div>
+                    <div class="video_container">
+                        <div class="video">
+                            <img class="thumbnailshorts" style="     width: 143px;
+                            height: 240PX;" src="https://source.unsplash.com/random/200x200?sig=15"
+                                alt="Video Thumbnail">
+                        </div>
+                        <div class="detail_video">
+                            <span class="profile"><img src="images/youtube-shorts-logo-15253.png" height="10px"
+                                    style="border-radius: 100px;" /></span>
+                            <span class="title">My First Video</span>
+                        </div>
+                        <div class="chanelname">
+                            Vikash Coding School
+                        </div>
+                        <div class="view_postedDays">
+                            119 M . 6 Months ago
+                        </div>
+                    </div>
+                    <div class="video_container">
+                        <div class="video">
+                            <img class="thumbnailshorts" style="     width: 143px;
+                            height: 240PX;" src="https://source.unsplash.com/random/200x200?sig=16"
+                                alt="Video Thumbnail">
+                        </div>
+                        <div class="detail_video">
+                            <span class="profile"><img src="images/youtube-shorts-logo-15253.png" height="10px"
+                                    style="border-radius: 100px;" /></span>
+                            <span class="title">My First Video</span>
+                        </div>
+                        <div class="chanelname">
+                            Vikash Coding School
+                        </div>
+                        <div class="view_postedDays">
+                            119 M . 6 Months ago
+                        </div>
+                    </div>
+                    <div class="video_container">
+                        <div class="video">
+                            <img class="thumbnailshorts" style="     width: 143px;
+                            height: 240PX;" src="https://source.unsplash.com/random/200x200?sig=17"
+                                alt="Video Thumbnail">
+                        </div>
+                        <div class="detail_video">
+                            <span class="profile"><img src="images/youtube-shorts-logo-15253.png" height="10px"
+                                    style="border-radius: 100px;" /></span>
+                            <span class="title">My First Video</span>
+                        </div>
+                        <div class="chanelname">
+                            Vikash Coding School
+                        </div>
+                        <div class="view_postedDays">
+                            119 M . 6 Months ago
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+</body>
+
+</html>
